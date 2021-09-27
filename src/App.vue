@@ -1,6 +1,7 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="board">
+        <Masu v-for="n of 9" v-bind:key="n"/>
+    </div>
 </template>
 
 <script>
