@@ -19,7 +19,7 @@ export default {
         doAction() {
             if(this.masu === "") {
                 // 三項演算子…《真偽値》 ? 《trueの値》 : 《falseの値》
-            this.masu = this.count % 2 === 0 ? "Don't worry" : "Be happy"
+            this.masu = this.count % 2 === 0 ? "Don't worry" : "Be happy:)"
             this.$emit('count-event')
             } 
         },
